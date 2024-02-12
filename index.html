@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+	
+    <meta charset="utf-8">
+		
+    <title>Дизайн-студия «Scandi»</title>
+
+    <!--Подключаем Шрифты-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+
+    <!--Подключаем normalize-->
+    <link href="css/normalize.css" rel="stylesheet">
+
+    <!--Подключаем Стили-->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!--Подключаем Минимизированные Стили-->
+    <!--<link href="css/styles.min.css" rel="stylesheet">-->
+
+    <!--Подключаем Обводки-->
+    <!--<link href="css/outlines.css" rel="stylesheet">-->
+		
+  </head>
+
+
+  <body class="page">
+
+    <header class="page__header page-header">
+      <nav class="page__nav page-nav">
+        <div class="container">
+          <div class="page-nav__layout">
+            <div class="page-nav__logo">
+              <a class="logo" title="Логотип, ведущий на главную страницу сайта">
+                <img class="logo__img" src="img/logo/logo.svg" width="91" height="25" alt="Логотип дизайн-студии «Scandi»">
+              </a>
+            </div>
+            <div class="page-nav__site-nav">
+              <ul class="site-nav">
+                <li>
+                  <a class="page-nav__link site-nav__link" href="#about">О компании</a>
+                </li>
+                <li>
+                  <a class="page-nav__link site-nav__link" href="#portfolio">Портфолио</a>
+                </li>
+                <li>
+                  <a class="page-nav__link site-nav__link" href="#team">Команда</a>
+                </li>
+                <li>
+                  <a class="page-nav__link site-nav__link" href="#steps">Как мы работаем</a>
+                </li>
+                <li>
+                  <a class="page-nav__link site-nav__link" href="#reviews">Отзывы клиентов</a>
+                </li>
+                <li>
+                  <a class="page-nav__link site-nav__link" href="#feedback">Оставить заявку</a>
+                </li>
+              </ul>
+            </div>
+            <div class="page-nav__phones">
+              <ul class="phones">
+                <li>
+                  <a class="page-nav__link phones__link" href="tel:+79818574624">
+                    +7 (981) 857-46-24
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+    <main>
+
+      <h1 class="visually-hidden">
+        Дизайн-студия «Scandi»
+      </h1>
+
+      <section class="offer">
+        <div class="container">
+          <div class="offer__content">
+            <h2 class="offer__title">
+              Поможем сделать вашу квартиру уютнее
+            </h2>
+            <p class="offer__desc">
+              Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим магазины и помогаем организовать доставку
+            </p>
+            <div class="offer__btn">
+              <a class="btn" href="#feedback">
+                Оставить заявку
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about__content">
+          <h2 class="section__title">
+            О нас
+          </h2>
+          <section class="collective">
+            <h3 class="visually-hidden">
+              Наш коллектив
+            </h3>
+            <div class="container">
+              <div class="collective__layout">
+                <div class="collective__column collective__column-img">
+                  <img class="collective__img" src="img/about/cover.png" width="445" height="465" alt="Пример неповторимого интерьера">
+                </div>
+                <div class="collective__column collective__column-text">
+                  <p class="collective__text">
+                    Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. Создавать неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то, что по-настоящему вдохновляет дизайнеров нашей студии.
+                  </p>
+                  <p class="collective__text">
+                    Наш коллектив сделает все, чтобы после сотрудничества с нами, Вам было приятно сказать: «Да! Это именно то, что действительно достойно моего дома!»
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="features">
+            <h3 class="visually-hidden">
+              Наши особенности
+            </h3>
+            <div class="container">
+              <dl class="features__list">
+                <div class="features__item features__item--long">
+                  <dt class="features__term">5</dt>
+                  <dd class="features__definition">лет опыта</dd>
+                </div>
+                <div class="features__item">
+                  <dt class="features__term">100</dt>
+                  <dd class="features__definition">проектов</dd>
+                </div>
+                <div class="features__item features__item--short">
+                  <dt class="features__term">10</dt>
+                  <dd class="features__definition">наград</dd>
+                </div>
+              </dl>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section class="portfolio" id="portfolio">
+        <div class="container">
+          <h2 class="section__title section__title--align">
+            Наши работы
+          </h2>
+          <ul class="portfolio__list">
+            <li class="portfolio__item">
+              <div class="portfolio__content portfolio__content-hover">
+                <p class="portfolio__design">
+                  <img src="img/portfolio/1.jpg" width="488" height="451" alt="Дизайн для «Квартира-студия 30 кв.м.»">
+                </p>
+                <div class="portfolio__hover">
+                  <section class="hover">
+                    <h3 class="hover__title">Квартира-студия 30 кв.м.</h3>
+                    <p class="hover__text">В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.</p>
+                  </section>
+                </div>
+              </div>
+            </li>
+            <li class="portfolio__item portfolio__item--long">
+              <div class="portfolio__content portfolio__content-hover">
+                <p class="portfolio__design">
+                  <img src="img/portfolio/2.jpg" width="692" height="451" alt="Дизайн для «Квартира-студия 30 кв.м.»">
+                </p>
+                <div class="portfolio__hover">
+                  <section class="hover">
+                    <h3 class="hover__title">Квартира-студия 30 кв.м.</h3>
+                    <p class="hover__text">В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.</p>
+                  </section>
+                </div>
+              </div>
+            </li>
+            <li class="portfolio__item portfolio__item--long">
+              <div class="portfolio__content portfolio__content-hover">
+                <p class="portfolio__design">
+                  <img src="img/portfolio/3.jpg" width="692" height="451" alt="Дизайн для «Квартира-студия 30 кв.м.»">
+                </p>
+                <div class="portfolio__hover">
+                  <section class="hover">
+                    <h3 class="hover__title">Квартира-студия 30 кв.м.</h3>
+                    <p class="hover__text">В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.</p>
+                  </section>
+                </div>
+              </div>
+            </li>
+            <li class="portfolio__item">
+              <div class="portfolio__content portfolio__content-hover">
+                <p class="portfolio__design">
+                  <img src="img/portfolio/4.jpg" width="488" height="451" alt="Дизайн для «Квартира-студия 30 кв.м.»">
+                </p>
+                <div class="portfolio__hover">
+                  <section class="hover">
+                    <h3 class="hover__title">Квартира-студия 30 кв.м.</h3>
+                    <p class="hover__text">В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.</p>
+                  </section>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <a class="portfolio__link link-to-catalog" href="404.html">
+            Смотреть ещё
+          </a>
+        </div>
+      </section>
+
+      <div class="page__wrapper page-wrapper">
+        <div class="page-wrapper__content">
+          <section class="team" id="team">
+            <div class="container">
+              <h2 class="section__title">
+                Команда
+              </h2>
+              <ul class="team__list">
+                <li class="team__item card">
+                  <h3 class="visually-hidden">
+                    Наш главный дизайнер
+                  </h3>
+                  <p class="card__img-box">
+                    <img class="card__img" src="img/team/1.png" width="320" height="253" alt="Главный дизайнер дизайн-студии «Scandi»">
+                  </p>
+                  <p class="card__desc">
+                    Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект, приезжает к вам домой, общается и помогает сделать вашу квартиру красивой и уютной.
+                  </p>
+                </li>
+                <li class="team__item card">
+                  <h3 class="visually-hidden">
+                    Наш менеджер
+                  </h3>
+                  <p class="card__img-box">
+                    <img src="img/team/2.png" width="320" height="253" alt="Менеджер дизайн-студии «Scandi»">
+                  </p>
+                  <p class="card__desc">
+                    С нашим менеджером Сашей вы познакомитесь в первую очередь. Она проконсультирует вас, соберёт все документы и ответит на все вопросы.
+                  </p>
+                </li>
+                <li class="team__item card">
+                  <h3 class="visually-hidden">
+                    Наш дизайнер
+                  </h3>
+                  <p class="card__img-box">
+                    <img src="img/team/3.png" width="320" height="253" alt="Дизайнер дизайн-студии «Scandi»">
+                  </p>
+                  <p class="card__desc">
+                    Катя тоже занимается дизайном. Она всегда находит общий язык с клиентами и точно знает, как обустроить дом так, чтобы вам понравилось.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="steps" id="steps">
+            <div class="container">
+              <h2 class="section__title">
+                Как мы работаем
+              </h2>
+              <ol class="steps__list steps-list steps-list-counter">
+                <li class="steps__item step step-counter">
+                  <p class="step__text">
+                    Знакомимся, выезжаем на объект, утверждаем концепцию, подписываем договор.
+                  </p>
+                </li>
+                <li class="steps__item step step-counter">
+                  <p class="step__text">
+                    Подбираем мебель, текстиль, аксессуары. Делаем 3D-визуализацию.
+                  </p>
+                </li>
+                <li class="steps__item step step-counter">
+                  <p class="step__text">
+                    Находим нужные магазины, помогаем с доставкой и оплатой товаров.
+                  </p>
+                </li>
+                <li class="steps__item step step-counter">
+                  <p class="step__text">
+                    Воплощаем проект в жизнь: расставляем мебель и цветы, вешаем шторы, находим места для мелочей
+                  </p>
+                </li>
+              </ol>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <section class="reviews" id="reviews">
+        <div class="container slider content-position">
+          <h2 class="section__title">
+            Отзывы
+          </h2>
+          <div class="reviews__slider-list">
+            <ul class="slider-list content-position">
+              <li class="review slide">
+                <div class="slide__layout">
+                  <div class="slide__column slide__column-text">
+                    <blockquote class="review__texts">
+                      <p class="review__text">
+                        «Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.
+                      </p>
+                      <p class="review__text">
+                        Работа шла быстро, было очень приятно общаться и взаимодействовать с сотрудниками. Не ожидала, что это будет так легко!
+                      </p>
+                      <p class="review__text">
+                        Буду советовать и своим друзьям к вам обращаться!»
+                      </p>
+                      <cite class="review__author">
+                        Анна Беловская
+                      </cite>
+                    </blockquote>
+                  </div>
+                  <div class="slide__column slide__column-img">
+                    <ul class="review__images">
+                      <li class="review__item">
+                        <img class="review__img" src="img/reviews/1.jpg" width="407" height="272" alt="Дизайн, выполненный для Анны Беловской">
+                      </li>
+                      <li class="review__item">
+                        <img class="review__img" src="img/reviews/2.jpg" width="407" height="272" alt="Дизайн, выполненный для Анны Беловской">
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="review slide">
+                <div class="slide__layout">
+                  <div class="slide__column slide__column-text">
+                    <blockquote class="review__texts">
+                      <p class="review__text">
+                        «Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.
+                      </p>
+                      <p class="review__text">
+                        Работа шла быстро, было очень приятно общаться и взаимодействовать с сотрудниками. Не ожидала, что это будет так легко!
+                      </p>
+                      <p class="review__text">
+                        Буду советовать и своим друзьям к вам обращаться!»
+                      </p>
+                      <cite class="review__author">
+                        Вероника Кулишова
+                      </cite>
+                    </blockquote>
+                  </div>
+                  <div class="slide__column slide__column-img">
+                    <ul class="review__images">
+                      <li class="review__item">
+                        <img class="review__img" src="img/reviews/1.jpg" width="407" height="272" alt="Дизайн, выполненный для Анны Беловской">
+                      </li>
+                      <li class="review__item">
+                        <img class="review__img" src="img/reviews/2.jpg" width="407" height="272" alt="Дизайн, выполненный для Анны Беловской">
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="review slide">
+                <div class="slide__layout">
+                  <div class="slide__column slide__column-text">
+                    <blockquote class="review__texts">
+                      <p class="review__text">
+                        «Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.
+                      </p>
+                      <p class="review__text">
+                        Работа шла быстро, было очень приятно общаться и взаимодействовать с сотрудниками. Не ожидала, что это будет так легко!
+                      </p>
+                      <p class="review__text">
+                        Буду советовать и своим друзьям к вам обращаться!»
+                      </p>
+                      <cite class="review__author">
+                        Надежда Петрова
+                      </cite>
+                    </blockquote>
+                  </div>
+                  <div class="slide__column slide__column-img">
+                    <ul class="review__images">
+                      <li class="review__item">
+                        <img class="review__img" src="img/reviews/1.jpg" width="407" height="272" alt="Дизайн, выполненный для Анны Беловской">
+                      </li>
+                      <li class="review__item">
+                        <img class="review__img" src="img/reviews/2.jpg" width="407" height="272" alt="Дизайн, выполненный для Анны Беловской">
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="reviews__control reviews__control-back">
+            <button class="control control-back" type="button">
+              <span class="visually-hidden">Назад</span>
+              <svg class="control__img" width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.292892 8.70711C-0.0976295 8.31658 -0.0976295 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41421 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM33 9H1V7H33V9Z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="reviews__control reviews__control-next">
+            <button class="control control-next" type="button">
+              <span class="visually-hidden">Вперед</span>
+              <svg class="control__img" width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M32.7071 8.70711C33.0976 8.31658 33.0976 7.68342 32.7071 7.29289L26.3431 0.928932C25.9526 0.538408 25.3195 0.538408 24.9289 0.928932C24.5384 1.31946 24.5384 1.95262 24.9289 2.34315L30.5858 8L24.9289 13.6569C24.5384 14.0474 24.5384 14.6805 24.9289 15.0711C25.3195 15.4616 25.9526 15.4616 26.3431 15.0711L32.7071 8.70711ZM0 9H32V7H0V9Z"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <div class="page__wrapper page-wrapper page-wrapper--bg">
+        <div class="container">
+          <div class="page-wrapper__layout">
+            <section class="feedback" id="feedback">
+              <h2 class="section__title section__title--align feedback__title">
+                Оставить заявку
+              </h2>
+              <p class="feedback__desc">
+                Оставьте свои контакты. Менеджер перезвонит в удобное вам время и ответит на все вопросы.
+              </p>
+              <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
+                <p class="feedback-form__group content-position">
+                  <label class="feedback-form__label feedback-form__label-position" for="feedback-form-fullname">
+                    Ваше имя
+                  </label>
+                  <input class="feedback-form__field feedback-form-fullname" id="feedback-form-fullname" name="fullname" type="text" placeholder="Иванов Иван Иванович">
+                </p>
+                <p class="feedback-form__group content-position">
+                  <label class="feedback-form__label feedback-form__label-position" for="feedback-form-phone">
+                    Введите телефон
+                  </label>
+                  <input class="feedback-form__field feedback-form-phone" id="feedback-form-phone" name="phone" type="tel" placeholder="8-909-805-7823">
+                </p>
+                <div class="feedback-form__btn">
+                  <button class="btn" type="submit">
+                    Оставить заявку
+                  </button>
+                </div>
+              </form>
+            </section>
+            <section class="location content-position">
+              <h2 class="visually-hidden">
+                Как нас найти
+              </h2>
+              <div class="location__iframe">
+                <iframe class="iframe" src="https://yandex.ru/map-widget/v1/-/CCUVNHWQsC" width="590" height="624"></iframe>
+              </div>
+              <p class="location__map">
+                <img class="map" src="img/location/map.png" width="590" height="624" alt="Мы находимся по адресу: г. Санкт-петербург, ул. Большая Конюшенная, 19">
+              </p>
+            </section>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+
+    <footer class="page__footer page-footer">
+      <div class="container">
+        <div class="page-footer__layout">
+          <div class="page-footer__phones">
+            <ul class="phones">
+              <li>
+                <a class="phones__link" href="tel:+79818574624">
+                  +7 (981) 857-46-24
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="page-footer__address">
+            <p class="address">г. Санкт-петербург, ул. Большая Конюшенная, 19</p>
+          </div>
+          <div class="page-footer__copyright">
+            <p class="copyright">ИП Королёва А.А.</p>
+          </div>
+          <div class="page-footer__scroll-up-link">
+            <a href="#" class="scroll-up-link">
+              <span class="visually-hidden">На главную</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <section class="popup error">
+      <h2 class="visually-hidden">Ошибка заполнения</h2>
+      <p class="popup__lead popup-lead">Вы ничего не ввели!</p>
+      <p class="popup__text">Заполните, пожалуйста, все поля формы для формирования заявки.</p>
+      <button class="popup__close popup-close" type="button">
+        <span class="visually-hidden">Закрыть</span>
+      </button>
+    </section>
+
+    <section class="popup error-field error-fullname">
+      <h2 class="visually-hidden">Ошибка заполнения</h2>
+      <p class="popup__lead popup-lead">Вы ничего не ввели<br> в поле формы!</p>
+      <p class="popup__text">Пожалуйста, заполните поле «Ваше имя»<br> для формирования заявки.</p>
+      <button class="popup__close popup-close" type="button">
+        <span class="visually-hidden">Закрыть</span>
+      </button>
+    </section>
+
+    <section class="popup error-field error-phone">
+      <h2 class="visually-hidden">Ошибка заполнения</h2>
+      <p class="popup__lead popup-lead">Вы ничего не ввели<br> в поле формы!</p>
+      <p class="popup__text">Пожалуйста, заполните поле «Ваш телефон»<br> для формирования заявки.</p>
+      <button class="popup__close popup-close" type="button">
+        <span class="visually-hidden">Закрыть</span>
+      </button>
+    </section>
+
+    <section class="popup accepted">
+      <h2 class="visually-hidden">Оставить заявку</h2>
+      <p class="popup__lead popup-lead">Ваша заявка отправлена!</p>
+      <p class="popup__text">Наш менеджер свяжется с Вами в ближайшее время.</p>
+      <button class="popup__close popup-close" type="button">
+        <span class="visually-hidden">Закрыть</span>
+      </button>
+    </section>
+
+    <div class="popup-overlay"></div>
+
+    <script src="js/slider.js"></script>
+    <script src="js/feedback-form.js"></script>
+    <script src="js/scrolling.js"></script>
+    <script></script>
+
+  </body>
+</html>
